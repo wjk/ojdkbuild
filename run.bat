@@ -23,10 +23,6 @@ set OJDKBUILD_DIR=%SCRIPT_DIR%
 call "%OJDKBUILD_DIR%/resources/scripts/modules.bat"
 if errorlevel 1 exit /b 1
 
-call "%OJDKBUILD_DIR%/resources/scripts/set-compile-env-vs10-x86_64.bat"
-@echo off
-if errorlevel 1 exit /b 1
-
 rmdir /s /q build
 if exist build exit /b 1
 mkdir build || exit /b 1
