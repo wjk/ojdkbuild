@@ -23,9 +23,15 @@ set OJDKBUILD_DIR=%SCRIPT_DIR%
 call "%OJDKBUILD_DIR%/resources/scripts/modules.bat"
 if errorlevel 1 goto :failure
 
+if not "%1" == "/clean" goto :mkdir
 rmdir /s /q build
 if exist build goto :failure
+
+:mkdir
+if exist build goto :cmake
 mkdir build || goto :failure
+
+:cmake
 pushd build || goto :failure
 
 cmake "%OJDKBUILD_DIR%/src/java-1.8.0-openjdk" -G "NMake Makefiles" || goto :failure
