@@ -1,135 +1,135 @@
 [submodule "lookaside/java-1.8.0-openjdk"]
 	path = lookaside/java-1.8.0-openjdk
-	url = ../lookaside_java-1.8.0-openjdk.git
+	url = git@github.com:ojdkbuild/lookaside_java-1.8.0-openjdk.git
 [submodule "deps/freetype"]
 	path = deps/freetype
-	url = ../deps_freetype.git
+	url = git@github.com:ojdkbuild/deps_freetype.git
 [submodule "tools/bootjdk7"]
 	path = tools/bootjdk7
-	url = ../tools_bootjdk7.git
+	url = git@github.com:ojdkbuild/tools_bootjdk7.git
 [submodule "tools/cmake"]
 	path = tools/cmake
-	url = ../tools_cmake.git
+	url = git@github.com:ojdkbuild/tools_cmake.git
 [submodule "tools/cygwin"]
 	path = tools/cygwin
-	url = ../tools_cygwin.git
+	url = git@github.com:ojdkbuild/tools_cygwin.git
 [submodule "tools/make"]
 	path = tools/make
-	url = ../tools_make.git
+	url = git@github.com:ojdkbuild/tools_make.git
 [submodule "tools/pkgconfig"]
 	path = tools/pkgconfig
-	url = ../tools_pkgconfig.git
+	url = git@github.com:ojdkbuild/tools_pkgconfig.git
 [submodule "tools/toolchain/directx"]
 	path = tools/toolchain/directx
-	url = ../tools_toolchain_directx.git
+	url = git@github.com:ojdkbuild/tools_toolchain_directx.git
 [submodule "tools/toolchain/msvcr100"]
 	path = tools/toolchain/msvcr100
-	url = ../tools_toolchain_msvcr100.git
+	url = git@github.com:ojdkbuild/tools_toolchain_msvcr100.git
 [submodule "tools/toolchain/sdk71"]
 	path = tools/toolchain/sdk71
-	url = ../tools_toolchain_sdk71.git
+	url = git@github.com:ojdkbuild/tools_toolchain_sdk71.git
 [submodule "tools/toolchain/vs2010e"]
 	path = tools/toolchain/vs2010e
-	url = ../tools_toolchain_vs2010e.git
+	url = git@github.com:ojdkbuild/tools_toolchain_vs2010e.git
 [submodule "tools/zip"]
 	path = tools/zip
-	url = ../tools_zip.git
+	url = git@github.com:ojdkbuild/tools_zip.git
 [submodule "lookaside/freetype"]
 	path = lookaside/freetype
-	url = ../lookaside_freetype.git
+	url = git@github.com:ojdkbuild/lookaside_freetype.git
 [submodule "lookaside/zlib"]
 	path = lookaside/zlib
-	url = ../lookaside_zlib.git
+	url = git@github.com:ojdkbuild/lookaside_zlib.git
 [submodule "deps/zlib"]
 	path = deps/zlib
-	url = ../deps_zlib.git
+	url = git@github.com:ojdkbuild/deps_zlib.git
 [submodule "lookaside/ca-certificates"]
 	path = lookaside/ca-certificates
-	url = ../lookaside_ca-certificates.git
+	url = git@github.com:ojdkbuild/lookaside_ca-certificates.git
 [submodule "lookaside/tzdata"]
 	path = lookaside/tzdata
-	url = ../lookaside_tzdata.git
+	url = git@github.com:ojdkbuild/lookaside_tzdata.git
 [submodule "lookaside/nspr"]
 	path = lookaside/nspr
-	url = ../lookaside_nspr.git
+	url = git@github.com:ojdkbuild/lookaside_nspr.git
 [submodule "lookaside/nss"]
 	path = lookaside/nss
-	url = ../lookaside_nss.git
+	url = git@github.com:ojdkbuild/lookaside_nss.git
 [submodule "deps/nss"]
 	path = deps/nss
-	url = ../deps_nss.git
+	url = git@github.com:ojdkbuild/deps_nss.git
 [submodule "lookaside/nss-util"]
 	path = lookaside/nss-util
-	url = ../lookaside_nss-util.git
+	url = git@github.com:ojdkbuild/lookaside_nss-util.git
 [submodule "lookaside/dejavu-fonts"]
 	path = lookaside/dejavu-fonts
-	url = ../lookaside_dejavu-fonts.git
+	url = git@github.com:ojdkbuild/lookaside_dejavu-fonts.git
 [submodule "tools/wix"]
 	path = tools/wix
-	url = ../tools_wix.git
+	url = git@github.com:ojdkbuild/tools_wix.git
 [submodule "tools/wixgen"]
 	path = tools/wixgen
-	url = ../tools_wixgen.git
+	url = git@github.com:ojdkbuild/tools_wixgen.git
 [submodule "lookaside/giflib"]
 	path = lookaside/giflib
-	url = ../lookaside_giflib.git
+	url = git@github.com:ojdkbuild/lookaside_giflib.git
 [submodule "deps/giflib"]
 	path = deps/giflib
-	url = ../deps_giflib.git
+	url = git@github.com:ojdkbuild/deps_giflib.git
 [submodule "lookaside/libpng"]
 	path = lookaside/libpng
-	url = ../lookaside_libpng.git
+	url = git@github.com:ojdkbuild/lookaside_libpng.git
 [submodule "deps/libpng"]
 	path = deps/libpng
-	url = ../deps_libpng.git
+	url = git@github.com:ojdkbuild/deps_libpng.git
 [submodule "tools/nasm"]
 	path = tools/nasm
-	url = ../tools_nasm.git
+	url = git@github.com:ojdkbuild/tools_nasm.git
 [submodule "lookaside/libjpeg-turbo"]
 	path = lookaside/libjpeg-turbo
-	url = ../lookaside_libjpeg-turbo.git
+	url = git@github.com:ojdkbuild/lookaside_libjpeg-turbo.git
 [submodule "deps/libjpeg-turbo"]
 	path = deps/libjpeg-turbo
-	url = ../deps_libjpeg-turbo.git
+	url = git@github.com:ojdkbuild/deps_libjpeg-turbo.git
 [submodule "lookaside/curl"]
 	path = lookaside/curl
-	url = ../lookaside_curl.git
+	url = git@github.com:ojdkbuild/lookaside_curl.git
 [submodule "lookaside/jansson"]
 	path = lookaside/jansson
-	url = ../lookaside_jansson.git
+	url = git@github.com:ojdkbuild/lookaside_jansson.git
 [submodule "lookaside/openssl"]
 	path = lookaside/openssl
-	url = ../lookaside_openssl.git
+	url = git@github.com:ojdkbuild/lookaside_openssl.git
 [submodule "lookaside/popt"]
 	path = lookaside/popt
-	url = ../lookaside_popt.git
+	url = git@github.com:ojdkbuild/lookaside_popt.git
 [submodule "tools/perl"]
 	path = tools/perl
-	url = ../tools_perl.git
+	url = git@github.com:ojdkbuild/tools_perl.git
 [submodule "deps/curl"]
 	path = deps/curl
-	url = ../deps_curl.git
+	url = git@github.com:ojdkbuild/deps_curl.git
 [submodule "deps/jansson"]
 	path = deps/jansson
-	url = ../deps_jansson.git
+	url = git@github.com:ojdkbuild/deps_jansson.git
 [submodule "deps/openssl"]
 	path = deps/openssl
-	url = ../deps_openssl.git
+	url = git@github.com:ojdkbuild/deps_openssl.git
 [submodule "deps/popt"]
 	path = deps/popt
-	url = ../deps_popt.git
+	url = git@github.com:ojdkbuild/deps_popt.git
 [submodule "contrib/update-notifier"]
 	path = contrib/update-notifier
-	url = ../contrib_update-notifier.git
+	url = git@github.com:ojdkbuild/contrib_update-notifier.git
 [submodule "tools/toolchain/vs2013e"]
 	path = tools/toolchain/vs2013e
-	url = ../tools_toolchain_vs2013e.git
+	url = git@github.com:ojdkbuild/tools_toolchain_vs2013e.git
 [submodule "lookaside/java-9-openjdk"]
 	path = lookaside/java-9-openjdk
-	url = ../lookaside_java-9-openjdk.git
+	url = git@github.com:ojdkbuild/lookaside_java-9-openjdk.git
 [submodule "tools/bootjdk8"]
 	path = tools/bootjdk8
-	url = ../tools_bootjdk8.git
+	url = git@github.com:ojdkbuild/tools_bootjdk8.git
 [submodule "tools/cygwin64"]
 	path = tools/cygwin64
-	url = ../tools_cygwin64.git
+	url = git@github.com:ojdkbuild/tools_cygwin64.git
