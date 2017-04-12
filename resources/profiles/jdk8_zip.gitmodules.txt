@@ -34,5 +34,4 @@ tools/pkgconfig
 tools/toolchain/directx
 tools/toolchain/msvcr100
 tools/toolchain/sdk71
-tools/toolchain/vs2010e
 tools/zip
