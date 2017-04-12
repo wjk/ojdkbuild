@@ -64,7 +64,11 @@ if ( NOT DEFINED OJDKBUILD_COMMON )
     
     # pkg-config macro
     macro ( ojdkbuild_pkg_check_modules _out_var_name _modifier _modules_list_var_name )
+        if ( WIN32 )
+            set ( PKG_CONFIG_EXECUTABLE ${OJDKBUILD_DIR}/tools/pkgconfig/bin/pkg-config.exe )
+        endif ( )
         find_package ( PkgConfig )
+
         if ( WIN32 )
             set ( PATHENV_SEPARATOR ";" )
         else ( )
