@@ -34,6 +34,10 @@ mkdir build || goto :failure
 :cmake
 pushd build || goto :failure
 
+call "%OJDKBUILD_DIR%/resources/scripts/set-compile-env-vs10-x86_64.bat"
+@echo off
+if errorlevel 1 goto :failure
+
 cmake "%OJDKBUILD_DIR%/src/java-1.8.0-openjdk" -G "NMake Makefiles" || goto :failure
 nmake zip VERBOSE=1 || goto :failure
 
