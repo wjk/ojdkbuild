@@ -34,7 +34,7 @@ mkdir build || goto :failure
 :cmake
 pushd build || goto :failure
 
-call "%OJDKBUILD_DIR%/resources/scripts/set-compile-env-vs10-x86_64.bat"
+call "%OJDKBUILD_DIR%/resources/scripts/set-compile-env-vs10-x86.bat"
 @echo off
 if errorlevel 1 goto :failure
 
